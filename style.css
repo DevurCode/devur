@@ -1,0 +1,37 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.cont-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 51px;
+}
+
+.link-logo {
+    font-size: 37px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.cont-link {
+    margin-left: 30px;
+    text-align: center;
+}
