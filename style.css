@@ -9,21 +9,22 @@ a {
 }
 
 header{
-    background-color: aquamarine;
     padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(255, 255, 255);
 }
 
 .cont-header {
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    margin-left: 51px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .link-logo {
     font-size: 37px;
+    color: rgb(118, 163, 205);
 }
 
 .links {
@@ -32,6 +33,45 @@ header{
 }
 
 .cont-link {
-    margin-left: 30px;
+    font-size: 15PX;
+    margin-left: 35px;
     text-align: center;
+    color: rgb(118, 163, 205);
+}
+
+.link-logo:hover, .cont-link:hover {
+    color: rgb(57, 92, 125);
+    transition: 0.2s;
+}
+
+.bloque-1 {
+    background-color: rgb(193, 224, 225);
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blo1-texto {
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-texto {
+    font-size: 27px;
+    color: rgb(118, 163, 205);
+}
+
+.texto-texto {
+    font-size: 13px;
+    width: 356px;
+    color: rgb(108, 129, 146);
+}
+
+.banner {
+    width: 400px;
 }
