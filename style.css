@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -47,9 +47,9 @@ header{
 .bloque-1 {
     background-color: rgb(193, 224, 225);
     display: flex;
-    justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -64,6 +64,11 @@ header{
 .titulo-texto {
     font-size: 27px;
     color: rgb(118, 163, 205);
+    
+}
+
+.nombre {
+    font-family: 'Playfair Display', serif;
 }
 
 .texto-texto {
@@ -72,6 +77,41 @@ header{
     color: rgb(108, 129, 146);
 }
 
+#descrip {
+    font-family: 'Roboto', sans-serif;
+}
+
 .banner {
     width: 400px;
 }
+
+
+/*Esto es para poner las habilidades
+  pero por el momento no*/
+/*
+.habilidades {
+    flex-direction: column;
+    background-color: rgb(234, 234, 234);
+}
+
+.txt-habilidades{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+    color: aquamarine;
+}
+
+.cont-habilidades {
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hab-titu {
+    text-align: center;
+}
+
+.habili {
+    display: flex;
+    justify-content: space-evenly;
+}*/
